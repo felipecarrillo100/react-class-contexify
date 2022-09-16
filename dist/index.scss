@@ -1,0 +1,50 @@
+
+.react-contexify {
+  //  z-index: 1000001;
+
+    .item-row {
+        width: 100%;
+        display: inline-block;
+        position: relative;
+
+        .item-icon {
+            display: inline-block;
+        }
+        .item-label {
+            display: inline-block;
+        }
+        .item-checkbox {
+            min-width: 24px;
+            display: inline-block;
+            .item-checkbox-float {
+                position: absolute;
+                top: 2px;
+                right: 0;
+            }
+        }
+    }
+}
+
+.react-contexify__item:not(.react-contexify__item--disabled):hover > .react-contexify__item__content {
+    color: white;
+    @if variable-exists(brand-primary) {
+        background-color: $brand-primary;
+    }
+    @if variable-exists(brand-primary) {
+        background-color: blue;
+    }
+}
+
+.react-contexify__submenu-arrow {
+    font-size: 14px;
+    line-height: 1;
+}
+
+.CheckboxInContextmenu {
+    float: right;
+    margin-top: 2px;
+    line-height: 1;
+}
+.CheckboxInContextmenu.disabled {
+    /* color: $btn-link-disabled-color; */
+}
