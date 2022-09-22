@@ -1,6 +1,6 @@
 {
   "name": "react-class-contexify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React Typescript class component to facilitate the integration of newer versions of react-contexify with my own UI applications",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
